@@ -1,7 +1,5 @@
-from SAScipher import columnar_transposition as ct
+from SAScipher import vigener as v
+from SAScipher import caesar as c
 
-print(ct.encryption('14725836', 3))
-
-# 123
-# 456
-# 789
+print(v.encryption('☐ x²', 'q'))
+print(v.decryption('⛴!yƖ', 'q'))
